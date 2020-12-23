@@ -5,7 +5,7 @@ class CreateComments < ActiveRecord::Migration[6.0]
       t.text :body
       t.references :article, null: false, foreign_key: true
 
-      t.timestamps
+      t.timestamps(Time.now)
     end
   end
 end
