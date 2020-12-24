@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Blog App
-![Top Page Screenshot](./screenshot-2.png)
+![Top Page Screenshot](.\app\assets\images\blog_app.jpg)
 
 ## About the Project
 
