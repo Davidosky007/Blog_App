@@ -1,19 +1,20 @@
-$primary_color: #D8F3E5;
+$primary_color: #d8f3e5;
 $black: black;
-$white: #D8F3E5;
-$primary_color_1: #6B3EFC;
+$white: #d8f3e5;
+$primary_color_1: #6b3efc;
 
 body {
   background-color: $primary_color_1;
-  font:{
-    family: verdana, Helvetica, Arial;
+  font: {
+    family: verdana, helvetica, arial;
     size: 14px;
   }
 }
 
 a {
-  color: #0000ff;
-  img{
+  color: #00f;
+
+  img {
     border: none;
   }
 }
@@ -39,39 +40,39 @@ a {
     font-size: 2.4rem;
   }
 
-    nav {
-      padding-top: 1rem;
-      text-align: center;
-      ul {
-        list-style-type: none;
+  nav {
+    padding-top: 1rem;
+    text-align: center;
 
-        li {
-          display: inline-block;
+    ul {
+      list-style-type: none;
 
-          &:not(:last-child) {
-            margin-right: 1rem;
-          }
+      li {
+        display: inline-block;
 
-          a {
-            text-decoration: none;
-            color: rgb(53, 51, 51);
-            font-weight: 600;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 1rem;
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
 
-            &:hover {
-              opacity: 0.7;
-            }
+        a {
+          text-decoration: none;
+          color: rgb(53, 51, 51);
+          font-weight: 600;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 1rem;
+
+          &:hover {
+            opacity: 0.7;
           }
         }
       }
     }
-    }
+  }
+}
 
 .btns {
   margin: 0 auto 1.5rem;
 }
-
 
 .btn,
 button,
@@ -110,22 +111,22 @@ input[type='submit'] {
 }
 
 h1 {
-      padding-left: 184px;
-      text-align: center;
-      margin: 0 auto;
-      font-size: 1.5rem;
+  padding-left: 184px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
 }
 
-h3{
+h3 {
   text-align: center;
   font-size: 1.5rem;
-  background-color: #324D6A;
+  background-color: #324d6a;
   color: #fff;
 }
 
-.header_title{
-font-size: 2rem;
-text-align: center;
+.header_title {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .flash {
